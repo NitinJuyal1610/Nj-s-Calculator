@@ -234,11 +234,14 @@ input {
 }
 
 @media only screen and (max-width: 572px) {
+  body {
+    display: block;
+  }
   .keypad {
     width: 80%;
-    height: 60%;
+    height: 52%;
     left: 6% !important;
-    top: 30%;
+    top: 35%;
     border-radius: 10px;
   }
 
@@ -251,7 +254,7 @@ input {
   .display {
     width: 86%;
     left: 6% !important;
-    top: 12%;
+    top: 16%;
     border-radius: 10px;
   }
 
@@ -271,13 +274,11 @@ input {
 
   .text {
     justify-self: center;
-    transform: translateX(35%);
     word-spacing: 10px;
   }
 
   .scroll {
     justify-self: center;
-    transform: translateX(15%);
     height: 65%;
     width: 65%;
   }
